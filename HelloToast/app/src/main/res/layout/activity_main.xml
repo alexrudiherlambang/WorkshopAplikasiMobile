@@ -37,4 +37,12 @@
         android:onClick="countUp"
         android:text="@string/button_label_count"
         android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/reset_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:onClick="resetCount"
+        android:text="@string/button_reset_count"
+        android:textColor="@android:color/white" />
 </LinearLayout>

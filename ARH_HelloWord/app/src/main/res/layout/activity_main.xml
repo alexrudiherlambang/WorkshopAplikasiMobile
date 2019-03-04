@@ -8,9 +8,10 @@
 
     <TextView
         android:layout_width="265dp"
-        android:layout_height="144dp"
-        android:text="Hayy Sloppy Boy"
+        android:layout_height="592dp"
+        android:text="@string/n_n_hallo_n_n_mas_alex_rudi_herlambang_n_n_e41170686"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
