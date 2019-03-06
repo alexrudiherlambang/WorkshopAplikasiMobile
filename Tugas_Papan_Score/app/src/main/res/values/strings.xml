@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tugas_Papan_Score</string>
+    <string name="scoreA">0</string>
+    <string name="reset">reset</string>
+    <string name="teamA">Team A</string>
+    <string name="spasi" />
+    <string name="timB">Team B</string>
+    <string name="scoreB">0</string>
+    <string name="tambahA">Tambah Team A</string>
+    <string name="tambahB">Tambah Team B</string>
+    <string name="judul">Papan Score</string>
+    <string name="sepasi"> </string>
+</resources>

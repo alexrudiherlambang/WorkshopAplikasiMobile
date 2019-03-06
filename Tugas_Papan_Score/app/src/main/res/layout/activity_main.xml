@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#C8E6C9"
+    android:layout_height="match_parent">
+    <!-- by Mode Vertical  -->
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="222dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="resetPoint"
+        android:text="@string/reset" />
+
+    <LinearLayout
+
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="73dp"
+        tools:context="com.okedroid.penghitungscore.MainActivity">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/team_a_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:paddingBottom="24dp"
+                android:text="@string/scoreA"
+                android:textColor="#000"
+                android:textSize="56sp"
+                />
+
+
+            <TextView
+                android:id="@+id/sepasi"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:text="@string/sepasi" />
+
+            <TextView
+                android:id="@+id/timA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="4dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/teamA"
+                android:textAllCaps="true"
+                android:textColor="#616161"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:background="@color/colorBlack"/>
+
+            <TextView
+                android:id="@+id/spasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="4dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/spasi"
+                android:textAllCaps="true"
+                android:textColor="#616161"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/timB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="4dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/timB"
+                android:textAllCaps="true"
+                android:textColor="#616161"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:background="@color/coloruhuy"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/team_b_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:paddingBottom="24dp"
+                android:text="@string/scoreB"
+                android:textColor="#000"
+                android:textSize="56sp" />
+
+            <Button
+                android:id="@+id/tambahA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/colorBlack"
+                android:onClick="tambahA"
+                android:text="@string/tambahA" />
+
+            <Button
+                android:id="@+id/tambahB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/coloruhuy"
+                android:onClick="TambahB"
+                android:text="@string/tambahB" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="@string/judul"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"/>
+</RelativeLayout>
