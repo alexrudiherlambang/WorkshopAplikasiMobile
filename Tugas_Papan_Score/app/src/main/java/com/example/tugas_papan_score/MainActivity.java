@@ -8,8 +8,6 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     private int teamAscore = 0;
     private int teamBscore = 0;
-    private TextView team_a_score;
-    private TextView team_b_score;
     private  static String LOG_TAG = MainActivity.class.getSimpleName();
 
     @Override

@@ -1,13 +1,15 @@
 <resources>
-    <string name="app_name">Tugas_Papan_Score</string>
+    <string name="app_name">Papan Score</string>
     <string name="scoreA">0</string>
     <string name="reset">reset</string>
-    <string name="teamA">Team A</string>
+    <string name="teamA">Real Madrid</string>
     <string name="spasi" />
-    <string name="timB">Team B</string>
+    <string name="timB">Manchaster United</string>
     <string name="scoreB">0</string>
-    <string name="tambahA">Tambah Team A</string>
-    <string name="tambahB">Tambah Team B</string>
+    <string name="tambahA">Goal!!!</string>
+    <string name="tambahB">Goal!!!</string>
     <string name="judul">Papan Score</string>
     <string name="sepasi"> </string>
+    <string name="madrid">TODO</string>
+    <string name="MU">TODO</string>
 </resources>

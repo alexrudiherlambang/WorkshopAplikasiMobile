@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="#C8E6C9"
@@ -39,27 +40,6 @@
             android:orientation="vertical">
 
 
-
-
-            <TextView
-                android:id="@+id/team_a_score"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:gravity="center"
-                android:paddingBottom="24dp"
-                android:text="@string/scoreA"
-                android:textColor="#000"
-                android:textSize="56sp"
-                />
-
-
-            <TextView
-                android:id="@+id/sepasi"
-                android:layout_width="match_parent"
-                android:layout_height="8dp"
-                android:text="@string/sepasi" />
-
             <TextView
                 android:id="@+id/timA"
                 android:layout_width="match_parent"
@@ -77,33 +57,37 @@
                 android:background="@color/colorBlack"/>
 
             <TextView
-                android:id="@+id/spasi"
+                android:id="@+id/team_a_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="sans-serif-light"
                 android:gravity="center"
-                android:padding="4dp"
-                android:paddingTop="16dp"
-                android:paddingBottom="16dp"
-                android:text="@string/spasi"
-                android:textAllCaps="true"
-                android:textColor="#616161"
-                android:textStyle="bold" />
+                android:paddingBottom="24dp"
+                android:text="@string/scoreA"
+                android:textColor="#000"
+                android:textSize="56sp"
+                />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:contentDescription="@string/madrid"
+                android:src="@drawable/real_madrid" />
+
             <TextView
-                android:id="@+id/timB"
+                android:id="@+id/sepasi"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center"
-                android:padding="4dp"
-                android:paddingTop="16dp"
-                android:paddingBottom="16dp"
-                android:text="@string/timB"
-                android:textAllCaps="true"
-                android:textColor="#616161"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:background="@color/coloruhuy"/>
+                android:layout_height="10dp"
+                android:text="@string/sepasi" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:contentDescription="@string/MU"
+                android:src="@drawable/mu" />
 
 
         </LinearLayout>
@@ -120,7 +104,21 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-
+            <TextView
+                android:id="@+id/timB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="4dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/timB"
+                android:textAllCaps="true"
+                android:textColor="#616161"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:background="@color/colorBlack"/>
             <TextView
                 android:id="@+id/team_b_score"
                 android:layout_width="match_parent"
@@ -139,7 +137,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
-                android:background="@color/colorBlack"
+                android:background="@color/coloruhuy"
                 android:onClick="tambahA"
                 android:text="@string/tambahA" />
 
