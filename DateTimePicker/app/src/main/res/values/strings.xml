@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Date Time Picker</string>
+    <string name="Pilih_DateTime">Pilih Tanggal atau Waktu</string>
+    <string name="date_button">Tanggal</string>
+    <string name="time_button">Jam</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+    <string name="date">date</string>
+    <string name="time">time</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Penerima Intent Implisit</string>
+    <string name="text_url_message">URL://</string>
+</resources>

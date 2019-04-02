@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Contoh Input Keyboard</string>
+    <string name="enter"> </string>
+    <string name="show">Tampilkan</string>
+</resources>

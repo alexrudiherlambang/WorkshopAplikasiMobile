@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TwoActivity</string>
+    <string name="text_header_reply"> </string>
+    <string name="button_main">Kirim</string>
+    <string name="button_second">Balas</string>
+    <string name="editText_main">Ketikkan Pesanmu Disini</string>
+    <string name="text_header"> </string>
+    <string name="editText_second">Isi Pesanmu Di sini</string>
+    <string name="activity2_name">Second Activity</string>
+
+</resources>
