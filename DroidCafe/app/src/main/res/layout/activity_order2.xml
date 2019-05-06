@@ -21,7 +21,7 @@
         android:id="@+id/text_messege"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_header"
+        android:text="@string/text_header1"
         android:layout_below="@+id/img_header"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 

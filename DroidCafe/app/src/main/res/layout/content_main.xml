@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_regular"
         android:text="@string/intro_text"
-        android:textSize="@dimen/text_heading" />
+        android:textSize="@dimen/text_heading"/>
     <TextView
         android:id="@+id/choose_desert"
         android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
         android:layout_below="@id/textintro"
         android:padding="@dimen/padding_regular"
         android:text="@string/choose_a_dessert"/>
-    <ImageView
+    <TextView
         android:id="@+id/donut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,44 +31,59 @@
         android:contentDescription="@string/donuts"
         android:onClick="showDonutOrder"
         android:padding="@dimen/padding_regular"
-        android:src="@drawable/donut"/>
+        android:text="@string/soto_lamongan"/>
     <TextView
+        android:id="@+id/ketdonuts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_wide"
-        android:layout_below="@id/choose_desert"
-        android:layout_toRightOf="@id/donut"
+        android:layout_below="@id/donut"
         android:text="@string/donuts"/>
-    <ImageView
+    <TextView
         android:id="@+id/ice_cream"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_regular"
-        android:layout_below="@id/donut"
+        android:layout_below="@id/ketdonuts"
         android:contentDescription="@string/ice_cream_sandwiches"
         android:onClick="showIceCreamOrder"
-        android:src="@drawable/icecream"/>
+        android:text="@string/soto_ayam"/>
     <TextView
+        android:id="@+id/keticecream"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_wide"
-        android:layout_below="@id/donut"
-        android:layout_toRightOf="@id/ice_cream"
+        android:layout_below="@id/ice_cream"
         android:text="@string/ice_cream_sandwiches"/>
-    <ImageView
+    <TextView
         android:id="@+id/froyo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_regular"
-        android:layout_below="@id/ice_cream"
+        android:layout_below="@id/keticecream"
         android:contentDescription="@string/froyo"
         android:onClick="showFroyoOrder"
-        android:src="@drawable/froyo"/>
+        android:text="@string/soto_kikil"/>
+    <TextView
+        android:id="@+id/ketfroyo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_wide"
+        android:layout_below="@id/froyo"
+        android:text="@string/froyo"/>
+    <TextView
+        android:id="@+id/sotouhuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_regular"
+        android:layout_below="@id/ketfroyo"
+        android:contentDescription="@string/uhuy"
+        android:onClick="showUhuyOrder"
+        android:text="@string/soto_uhuy"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_wide"
-        android:layout_below="@id/ice_cream"
-        android:layout_toRightOf="@id/froyo"
-        android:text="@string/froyo"/>
+        android:layout_below="@id/sotouhuy"
+        android:text="@string/uhuy"/>
 </RelativeLayout>

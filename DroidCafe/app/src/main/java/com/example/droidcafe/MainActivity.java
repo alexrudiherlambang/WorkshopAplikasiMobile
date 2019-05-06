@@ -4,15 +4,20 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    private static final String LOG_TAG = MainActivity.class.getSimpleName();
+    public static final String EXTRA_MESSAGE = "com.example.android.twoactivities.extra.MESSAGE";
+    public static final int TEXT_REQUEST = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,17 +64,32 @@ public class MainActivity extends AppCompatActivity {
     /** *	Shows	a	message	that	the	donut	image	was	clicked.
      * */
     public	void	showDonutOrder(View	view) {
-        showFoodOrder(getString(R.string.donut_order_message));
+        Log.d(LOG_TAG, "Button Clicked!");
+
+        Intent intent = new Intent(this, OrderActivity.class);
+        startActivity(intent);
     }
     /** *	Shows	a	message	that	the	ice	cream	sandwich	image	was	clicked.
      * */
     public void	showIceCreamOrder(View	view) {
-        showFoodOrder(getString(R.string.ice_cream_order_message));
+        Log.d(LOG_TAG, "Button Clicked!");
+
+        Intent intent = new Intent(this, OrderActivity2.class);
+        startActivity(intent);
     }
     /** *	Shows	a	message	that	the	froyo	image	was	clicked.
      * */
     public	void	showFroyoOrder(View	view) {
-        showFoodOrder(getString(R.string.froyo_order_message));
+        Log.d(LOG_TAG, "Button Clicked!");
+
+        Intent intent = new Intent(this, OrderActivity3.class);
+        startActivity(intent);
+    }
+    public	void	showUhuyOrder(View	view) {
+        Log.d(LOG_TAG, "Button Clicked!");
+
+        Intent intent = new Intent(this, OrderActivity4.class);
+        startActivity(intent);
     }
 
     public void	showFoodOrder(String message) {

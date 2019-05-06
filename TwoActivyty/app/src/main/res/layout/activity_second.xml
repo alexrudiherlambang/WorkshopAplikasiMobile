@@ -10,8 +10,8 @@
         android:id="@+id/text_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_header"
         android:layout_marginBottom="@dimen/activity_margin"
+        android:text="@string/text_header"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="16dp"
@@ -21,20 +21,20 @@
         android:id="@+id/text_messege"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_header"
-        android:layout_marginLeft="@dimen/activity_margin"
         android:layout_marginStart="@dimen/activity_margin"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:text="@string/text_header"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
         android:id="@+id/button_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_second"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:onClick="returnReply"
+        android:text="@string/button_second"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="73dp" />
 
